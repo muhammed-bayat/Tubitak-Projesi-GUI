@@ -32,10 +32,10 @@ namespace sampleGUI
             this.ustPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.altPanel = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panelOrta = new System.Windows.Forms.Panel();
@@ -50,9 +50,10 @@ namespace sampleGUI
             this.ustPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(60)))), ((int)(((byte)(79)))));
             this.ustPanel.Controls.Add(this.label1);
             this.ustPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ustPanel.Location = new System.Drawing.Point(125, 0);
+            this.ustPanel.Location = new System.Drawing.Point(167, 0);
+            this.ustPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ustPanel.Name = "ustPanel";
-            this.ustPanel.Size = new System.Drawing.Size(1131, 32);
+            this.ustPanel.Size = new System.Drawing.Size(1508, 39);
             this.ustPanel.TabIndex = 0;
             // 
             // label1
@@ -64,9 +65,10 @@ namespace sampleGUI
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(6, 5);
+            this.label1.Location = new System.Drawing.Point(8, 6);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 24);
+            this.label1.Size = new System.Drawing.Size(215, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "TUBİTAK ARAYUZ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -79,27 +81,18 @@ namespace sampleGUI
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(125, 749);
+            this.panel2.Size = new System.Drawing.Size(167, 922);
             this.panel2.TabIndex = 1;
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button3.Location = new System.Drawing.Point(0, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 65);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.Location = new System.Drawing.Point(0, 58);
+            this.button2.Location = new System.Drawing.Point(0, 71);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 58);
+            this.button2.Size = new System.Drawing.Size(167, 71);
             this.button2.TabIndex = 6;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -109,10 +102,11 @@ namespace sampleGUI
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 58);
+            this.button1.Size = new System.Drawing.Size(167, 71);
             this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
+            this.button1.Text = "Anket Ekranı";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -121,18 +115,32 @@ namespace sampleGUI
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(60)))), ((int)(((byte)(79)))));
             this.panel6.Controls.Add(this.button3);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 684);
+            this.panel6.Location = new System.Drawing.Point(0, 842);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(125, 65);
+            this.panel6.Size = new System.Drawing.Size(167, 80);
             this.panel6.TabIndex = 2;
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button3.Location = new System.Drawing.Point(0, 0);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(167, 80);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // altPanel
             // 
             this.altPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(60)))), ((int)(((byte)(79)))));
             this.altPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.altPanel.Location = new System.Drawing.Point(125, 714);
+            this.altPanel.Location = new System.Drawing.Point(167, 879);
+            this.altPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.altPanel.Name = "altPanel";
-            this.altPanel.Size = new System.Drawing.Size(1131, 35);
+            this.altPanel.Size = new System.Drawing.Size(1508, 43);
             this.altPanel.TabIndex = 2;
             // 
             // panel4
@@ -140,28 +148,31 @@ namespace sampleGUI
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
             this.panel4.Controls.Add(this.panelOrta);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(125, 32);
+            this.panel4.Location = new System.Drawing.Point(167, 39);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1131, 682);
+            this.panel4.Size = new System.Drawing.Size(1508, 840);
             this.panel4.TabIndex = 3;
             // 
             // panelOrta
             // 
             this.panelOrta.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelOrta.Location = new System.Drawing.Point(0, 0);
+            this.panelOrta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelOrta.Name = "panelOrta";
-            this.panelOrta.Size = new System.Drawing.Size(1131, 682);
+            this.panelOrta.Size = new System.Drawing.Size(1508, 840);
             this.panelOrta.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1256, 749);
+            this.ClientSize = new System.Drawing.Size(1675, 922);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.ustPanel);
             this.Controls.Add(this.altPanel);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ustPanel.ResumeLayout(false);
