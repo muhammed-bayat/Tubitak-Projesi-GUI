@@ -56,7 +56,7 @@ namespace sampleGUI
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(33)))), ((int)(((byte)(43)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(34)))), ((int)(((byte)(38)))));
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.bunifuFlatButton1);
             this.panel2.Controls.Add(this.bunifuFlatButton2);

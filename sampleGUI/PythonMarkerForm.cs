@@ -39,23 +39,43 @@ namespace sampleGUI
         {
 
 
+
+            string progToRun = " python C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py"; 
+            Process cmd = new Process();
+            cmd.StartInfo.FileName = "cmd.exe";
+            cmd.StartInfo.RedirectStandardInput = true;
+            cmd.StartInfo.RedirectStandardOutput = true;
+            cmd.StartInfo.CreateNoWindow = true;
+            cmd.StartInfo.UseShellExecute = false;
+            cmd.Start();
+            cmd.StandardInput.WriteLine(progToRun);
+            cmd.StandardInput.Flush();
+            cmd.StandardInput.Close();
+            cmd.WaitForExit();
+            Console.WriteLine(cmd.StandardOutput.ReadToEnd());
+            Console.ReadLine();
+
+
+
+
+            /*
             var py = Python.CreateEngine();
 
 
             try
             {
 
-                run_cmd("D:/qt5hatasi/portable/python/python.exe", "C:/Users/Administrator/source/repos/sampleGUI/sampleGUI/marker.py");
-                // py.ExecuteFile("C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
+                //run_cmd("D:/qt5hatasi/portable/python/python.exe", "C:/Users/Administrator/source/repos/sampleGUI/sampleGUI/marker.py");
+                 py.ExecuteFile("C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message.ToString());
             }
-            
+            */
 
-//System.Diagnostics.Process.Start(@"C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
+            //System.Diagnostics.Process.Start(@"C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
 
 
         }
