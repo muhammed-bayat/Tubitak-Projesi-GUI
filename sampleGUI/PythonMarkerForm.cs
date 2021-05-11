@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +19,22 @@ namespace sampleGUI
         {
             InitializeComponent();
         }
-
+        private void run_cmd(string cmd, string args)
+        {
+            ProcessStartInfo start = new ProcessStartInfo();
+            start.FileName = "D:/qt5hatasi/portable/python/python.exe";
+            start.Arguments = string.Format("{0} {1}", cmd, args);
+            start.UseShellExecute = false;
+            start.RedirectStandardOutput = true;
+            using (Process process = Process.Start(start))
+            {
+                using (StreamReader reader = process.StandardOutput)
+                {
+                    string result = reader.ReadToEnd();
+                    Console.Write(result);
+                }
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -28,7 +45,8 @@ namespace sampleGUI
             try
             {
 
-                py.ExecuteFile("C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\cortex.py");
+                run_cmd("D:/qt5hatasi/portable/python/python.exe", "C:/Users/Administrator/source/repos/sampleGUI/sampleGUI/marker.py");
+                // py.ExecuteFile("C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
 
             }
             catch (Exception ex)
@@ -37,8 +55,7 @@ namespace sampleGUI
             }
             
 
-//Bu da 4-5 kez basınca çalıştırıyor console fakat yine de hello world yazısı gelmiyor
-System.Diagnostics.Process.Start(@"C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
+//System.Diagnostics.Process.Start(@"C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
 
 
         }
