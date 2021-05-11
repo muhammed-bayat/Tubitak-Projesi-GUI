@@ -156,7 +156,7 @@ namespace sampleGUI
         }
 
         #endregion
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+      
         private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.Timer countDown;
       
