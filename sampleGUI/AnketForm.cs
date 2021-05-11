@@ -62,6 +62,7 @@ namespace sampleGUI
 
             }
 
+            label1.Text = "kalan zaman: "+ sayac.ToString();
             progressBar1.Value = sayac;
             sayac--;
 

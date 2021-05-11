@@ -33,8 +33,9 @@ namespace sampleGUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnketForm));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.button1 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,22 +47,13 @@ namespace sampleGUI
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1240, 774);
             this.panel1.TabIndex = 0;
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.BackColor = System.Drawing.Color.Coral;
-            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.progressBar1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.progressBar1.Location = new System.Drawing.Point(0, 751);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1240, 23);
-            this.progressBar1.TabIndex = 1;
             // 
             // button1
             // 
@@ -90,6 +82,29 @@ namespace sampleGUI
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.BackColor = System.Drawing.Color.Coral;
+            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.progressBar1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.progressBar1.Location = new System.Drawing.Point(0, 751);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(1240, 23);
+            this.progressBar1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Crimson;
+            this.label1.Location = new System.Drawing.Point(0, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 31);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            // 
             // AnketForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -104,6 +119,7 @@ namespace sampleGUI
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AnketForm_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -113,5 +129,6 @@ namespace sampleGUI
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ProgressBar progressBar1;
         private Bunifu.Framework.UI.BunifuThinButton2 button1;
+        private System.Windows.Forms.Label label1;
     }
 }
