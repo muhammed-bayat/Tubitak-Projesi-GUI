@@ -49,9 +49,9 @@ namespace sampleGUI
             // 
             this.ustPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(60)))), ((int)(((byte)(79)))));
             this.ustPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ustPanel.Location = new System.Drawing.Point(59, 0);
+            this.ustPanel.Location = new System.Drawing.Point(125, 0);
             this.ustPanel.Name = "ustPanel";
-            this.ustPanel.Size = new System.Drawing.Size(1197, 32);
+            this.ustPanel.Size = new System.Drawing.Size(1131, 32);
             this.ustPanel.TabIndex = 0;
             // 
             // panel2
@@ -64,7 +64,7 @@ namespace sampleGUI
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(59, 749);
+            this.panel2.Size = new System.Drawing.Size(125, 749);
             this.panel2.TabIndex = 1;
             // 
             // panel6
@@ -74,7 +74,7 @@ namespace sampleGUI
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel6.Location = new System.Drawing.Point(0, 684);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(59, 65);
+            this.panel6.Size = new System.Drawing.Size(125, 65);
             this.panel6.TabIndex = 2;
             // 
             // bunifuFlatButton3
@@ -106,7 +106,7 @@ namespace sampleGUI
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.Empty;
             this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(59, 65);
+            this.bunifuFlatButton3.Size = new System.Drawing.Size(125, 65);
             this.bunifuFlatButton3.TabIndex = 6;
             this.bunifuFlatButton3.Text = "Baseline ";
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -119,7 +119,7 @@ namespace sampleGUI
             this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "Webview";
+            this.bunifuFlatButton1.ButtonText = "Marker";
             this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -131,20 +131,20 @@ namespace sampleGUI
             this.bunifuFlatButton1.IconMarginLeft = 0;
             this.bunifuFlatButton1.IconMarginRight = 0;
             this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconRightZoom = 45D;
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 45D;
             this.bunifuFlatButton1.IsTab = false;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 105);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(323, 30, 3, 3);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Empty;
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Empty;
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(59, 73);
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 73);
             this.bunifuFlatButton1.TabIndex = 4;
-            this.bunifuFlatButton1.Text = "Webview";
+            this.bunifuFlatButton1.Text = "Marker";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -155,7 +155,7 @@ namespace sampleGUI
             this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "btn";
+            this.bunifuFlatButton2.ButtonText = "Anket Ekranı";
             this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -167,20 +167,20 @@ namespace sampleGUI
             this.bunifuFlatButton2.IconMarginLeft = 0;
             this.bunifuFlatButton2.IconMarginRight = 0;
             this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
+            this.bunifuFlatButton2.IconRightZoom = 45D;
             this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 60D;
+            this.bunifuFlatButton2.IconZoom = 45D;
             this.bunifuFlatButton2.IsTab = false;
             this.bunifuFlatButton2.Location = new System.Drawing.Point(0, 32);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(323, 30, 3, 3);
+            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Empty;
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.Empty;
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(59, 73);
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(125, 73);
             this.bunifuFlatButton2.TabIndex = 3;
-            this.bunifuFlatButton2.Text = "btn";
+            this.bunifuFlatButton2.Text = "Anket Ekranı";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -192,16 +192,16 @@ namespace sampleGUI
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(59, 32);
+            this.panel5.Size = new System.Drawing.Size(125, 32);
             this.panel5.TabIndex = 1;
             // 
             // altPanel
             // 
             this.altPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(60)))), ((int)(((byte)(79)))));
             this.altPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.altPanel.Location = new System.Drawing.Point(59, 714);
+            this.altPanel.Location = new System.Drawing.Point(125, 714);
             this.altPanel.Name = "altPanel";
-            this.altPanel.Size = new System.Drawing.Size(1197, 35);
+            this.altPanel.Size = new System.Drawing.Size(1131, 35);
             this.altPanel.TabIndex = 2;
             // 
             // panel4
@@ -209,9 +209,9 @@ namespace sampleGUI
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
             this.panel4.Controls.Add(this.panelOrta);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(59, 32);
+            this.panel4.Location = new System.Drawing.Point(125, 32);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1197, 682);
+            this.panel4.Size = new System.Drawing.Size(1131, 682);
             this.panel4.TabIndex = 3;
             // 
             // panelOrta
@@ -219,7 +219,7 @@ namespace sampleGUI
             this.panelOrta.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelOrta.Location = new System.Drawing.Point(0, 0);
             this.panelOrta.Name = "panelOrta";
-            this.panelOrta.Size = new System.Drawing.Size(1197, 682);
+            this.panelOrta.Size = new System.Drawing.Size(1131, 682);
             this.panelOrta.TabIndex = 0;
             // 
             // Form1
