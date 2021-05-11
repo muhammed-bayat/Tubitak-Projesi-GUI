@@ -64,7 +64,7 @@ namespace sampleGUI
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(59, 754);
+            this.panel2.Size = new System.Drawing.Size(59, 749);
             this.panel2.TabIndex = 1;
             // 
             // panel6
@@ -72,7 +72,7 @@ namespace sampleGUI
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(60)))), ((int)(((byte)(79)))));
             this.panel6.Controls.Add(this.bunifuFlatButton3);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 689);
+            this.panel6.Location = new System.Drawing.Point(0, 684);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(59, 65);
             this.panel6.TabIndex = 2;
@@ -133,7 +133,7 @@ namespace sampleGUI
             this.bunifuFlatButton1.IconRightVisible = true;
             this.bunifuFlatButton1.IconRightZoom = 0D;
             this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 33D;
+            this.bunifuFlatButton1.IconZoom = 45D;
             this.bunifuFlatButton1.IsTab = false;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 105);
             this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(323, 30, 3, 3);
@@ -169,7 +169,7 @@ namespace sampleGUI
             this.bunifuFlatButton2.IconRightVisible = true;
             this.bunifuFlatButton2.IconRightZoom = 0D;
             this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 90D;
+            this.bunifuFlatButton2.IconZoom = 60D;
             this.bunifuFlatButton2.IsTab = false;
             this.bunifuFlatButton2.Location = new System.Drawing.Point(0, 32);
             this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(323, 30, 3, 3);
@@ -199,7 +199,7 @@ namespace sampleGUI
             // 
             this.altPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(60)))), ((int)(((byte)(79)))));
             this.altPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.altPanel.Location = new System.Drawing.Point(59, 719);
+            this.altPanel.Location = new System.Drawing.Point(59, 714);
             this.altPanel.Name = "altPanel";
             this.altPanel.Size = new System.Drawing.Size(1197, 35);
             this.altPanel.TabIndex = 2;
@@ -211,7 +211,7 @@ namespace sampleGUI
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(59, 32);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1197, 687);
+            this.panel4.Size = new System.Drawing.Size(1197, 682);
             this.panel4.TabIndex = 3;
             // 
             // panelOrta
@@ -219,14 +219,14 @@ namespace sampleGUI
             this.panelOrta.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelOrta.Location = new System.Drawing.Point(0, 0);
             this.panelOrta.Name = "panelOrta";
-            this.panelOrta.Size = new System.Drawing.Size(1197, 687);
+            this.panelOrta.Size = new System.Drawing.Size(1197, 682);
             this.panelOrta.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1256, 754);
+            this.ClientSize = new System.Drawing.Size(1256, 749);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.ustPanel);
             this.Controls.Add(this.altPanel);
