@@ -75,17 +75,7 @@ namespace sampleGUI
 
         }
 
-        private void btnStart_Click(object sender, EventArgs e)
-        {
-            btnStart.Visible = false;
-
-            pictureBox1.BackColor = Color.LightGray;
-            lbl.BackColor = Color.LightGray;
-            label1.BackColor = Color.LightGray;
-            panel1.BackColor = Color.LightGray;
-            countDown.Start();
-        
-        }
+ 
 
         private void timer2_Tick(object sender, EventArgs e)
         {
@@ -128,6 +118,17 @@ namespace sampleGUI
                 timer2.Stop();
             }
 
+        }
+
+        private void btnStart_Click_1(object sender, EventArgs e)
+        {
+            btnStart.Visible = false;
+
+            pictureBox1.BackColor = Color.LightGray;
+            lbl.BackColor = Color.LightGray;
+            label1.BackColor = Color.LightGray;
+            panel1.BackColor = Color.LightGray;
+            countDown.Start();
         }
     }
 

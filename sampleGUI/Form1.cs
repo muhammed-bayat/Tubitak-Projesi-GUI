@@ -17,29 +17,16 @@ namespace sampleGUI
             InitializeComponent();
         }
 
-        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+     
+
+       
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-
-            /// panel içinde baslat
-           
-            panelOrta.Controls.Clear();
-            Baseline bsline = new Baseline();
-            bsline.TopLevel = false;
-            panelOrta.Controls.Add(bsline);
-            bsline.Show();
-
-            bsline.Dock = DockStyle.Fill;
-            bsline.BringToFront();
-
-            /////////////////////////////////
-
-            altPanel.BackColor = Color.Transparent;
-            ustPanel.BackColor = Color.Transparent;
-
-
+          
         }
 
-        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
             /// panel içinde baslat
@@ -54,7 +41,7 @@ namespace sampleGUI
             anketForm.BringToFront();
         }
 
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             panelOrta.Controls.Clear();
             PythonMarkerForm pythonMarker = new PythonMarkerForm();
@@ -64,6 +51,26 @@ namespace sampleGUI
 
             pythonMarker.Dock = DockStyle.Fill;
             pythonMarker.BringToFront();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            /// panel içinde baslat
+
+            panelOrta.Controls.Clear();
+            Baseline bsline = new Baseline();
+            bsline.TopLevel = false;
+            panelOrta.Controls.Add(bsline);
+            bsline.Show();
+
+            bsline.Dock = DockStyle.Fill;
+            bsline.BringToFront();
+
+            /////////////////////////////////
+
+            altPanel.BackColor = Color.Transparent;
+            ustPanel.BackColor = Color.Transparent;
+
         }
     }
 }

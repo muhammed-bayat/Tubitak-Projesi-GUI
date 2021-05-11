@@ -35,10 +35,10 @@ namespace sampleGUI
             this.countDown = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnStart = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.btnStart = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -91,42 +91,6 @@ namespace sampleGUI
             this.label1.TabIndex = 4;
             this.label1.Text = "Get ready to record baseline";
             // 
-            // btnStart
-            // 
-            this.btnStart.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnStart.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnStart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(27)))), ((int)(((byte)(78)))));
-            this.btnStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnStart.BorderRadius = 0;
-            this.btnStart.ButtonText = "Başla";
-            this.btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnStart.DisabledColor = System.Drawing.Color.Gray;
-            this.btnStart.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnStart.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnStart.Iconimage")));
-            this.btnStart.Iconimage_right = null;
-            this.btnStart.Iconimage_right_Selected = null;
-            this.btnStart.Iconimage_Selected = null;
-            this.btnStart.IconMarginLeft = 0;
-            this.btnStart.IconMarginRight = 0;
-            this.btnStart.IconRightVisible = true;
-            this.btnStart.IconRightZoom = 0D;
-            this.btnStart.IconVisible = true;
-            this.btnStart.IconZoom = 90D;
-            this.btnStart.IsTab = false;
-            this.btnStart.Location = new System.Drawing.Point(499, 445);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(27)))), ((int)(((byte)(78)))));
-            this.btnStart.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(27)))), ((int)(((byte)(78)))));
-            this.btnStart.OnHoverTextColor = System.Drawing.Color.Transparent;
-            this.btnStart.selected = false;
-            this.btnStart.Size = new System.Drawing.Size(168, 33);
-            this.btnStart.TabIndex = 5;
-            this.btnStart.Text = "Başla";
-            this.btnStart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStart.Textcolor = System.Drawing.Color.White;
-            this.btnStart.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -145,8 +109,8 @@ namespace sampleGUI
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btnStart);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.lbl);
             this.panel1.Controls.Add(this.label1);
@@ -160,6 +124,17 @@ namespace sampleGUI
             // 
             this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // btnStart
+            // 
+            this.btnStart.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnStart.Location = new System.Drawing.Point(549, 430);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.TabIndex = 7;
+            this.btnStart.Text = "Başla";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click_1);
             // 
             // Baseline
             // 
@@ -187,10 +162,10 @@ namespace sampleGUI
       
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuFlatButton btnStart;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Button btnStart;
     }
 }
 
