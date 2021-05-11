@@ -101,9 +101,9 @@ namespace sampleGUI
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Location = new System.Drawing.Point(0, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 31);
+            this.label1.Size = new System.Drawing.Size(202, 31);
             this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.label1.Text = "zamanlayıcı: 100";
             // 
             // AnketForm
             // 

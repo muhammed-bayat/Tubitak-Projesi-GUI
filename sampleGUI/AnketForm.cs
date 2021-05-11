@@ -42,6 +42,7 @@ namespace sampleGUI
         private void webBrowser1_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             this.Text = e.Url.ToString() + "Loding Page..";
+            label1.Text = e.Url.ToString() + "Loding Page..";
         }
         int sayac = 100;
 

@@ -60,7 +60,9 @@ class Marker():
 # -----------------------------------------------------------
 user = {
 	"license" : "",
-	 "debit" : 100
+	"client_id" : "AusOU1tHq0tLdoPVP9z8SL8DvBTxevlhqFbhpsXh",
+	"client_secret" : "JQhKg1nxMPa6YdzD2ooRwpCaUxFnk7ZtliJiAUcfyFCXvwCJTJTfbF7V55m14US0ejnvb184WS65eL8VPWf8GoDoYxtxMVCX87rQn9N9DSccLEKqyyjaIXAWZv32u9ZH",
+	"debit" : 100
 }
 
 m = Marker()
