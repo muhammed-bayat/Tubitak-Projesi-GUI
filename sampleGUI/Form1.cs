@@ -17,14 +17,30 @@ namespace sampleGUI
             InitializeComponent();
         }
 
-     
 
-       
-
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        public void ButtonTransparent(Button btn)
         {
-          
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.BackColor = Color.Transparent;
+            btn.FlatAppearance.BorderSize = 0;
+            btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
         }
+
+      
+
+        public void AllButtonsTransparent()
+        {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is Button)
+                {
+                    ButtonTransparent((Button)ctrl);
+                }
+            }
+        }
+
+ 
 
         private void button1_Click(object sender, EventArgs e)
         {
