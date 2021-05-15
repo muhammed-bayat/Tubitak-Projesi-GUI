@@ -15,6 +15,19 @@ namespace sampleGUI
         public Form1()
         {
             InitializeComponent();
+
+
+            ToolTip Aciklama = new ToolTip();
+            Aciklama.ToolTipTitle = "Dikkat!";
+            Aciklama.ToolTipIcon = ToolTipIcon.Warning;
+            Aciklama.IsBalloon = true;
+
+            Aciklama.SetToolTip(button1, "Form ekranina gitmek icin tiklayiniz");
+            Aciklama.SetToolTip(button2, "Marker ekranina gitmek icin tiklayiniz");
+            Aciklama.SetToolTip(button3, "Baseline ekranina gitmek icin tiklayiniz");
+
+            // Aciklama.SetToolTip(label1, "İstediğiniz kadar açıklama ekleyebilirsiniz..");
+
         }
 
 
@@ -40,8 +53,7 @@ namespace sampleGUI
             }
         }
 
- 
-
+         
         private void button1_Click(object sender, EventArgs e)
         {
 

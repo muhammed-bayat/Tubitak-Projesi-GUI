@@ -38,7 +38,7 @@ namespace sampleGUI
         private void button1_Click(object sender, EventArgs e)
         {
 
-
+            /*
 
             string progToRun = " python C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py"; 
             Process cmd = new Process();
@@ -55,25 +55,26 @@ namespace sampleGUI
             Console.WriteLine(cmd.StandardOutput.ReadToEnd());
             Console.ReadLine();
 
+            */
 
 
-
-            /*
+            
             var py = Python.CreateEngine();
 
 
             try
             {
 
-                //run_cmd("D:/qt5hatasi/portable/python/python.exe", "C:/Users/Administrator/source/repos/sampleGUI/sampleGUI/marker.py");
-                 py.ExecuteFile("C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
+                label1.Text = ("Marker Basliyor..");
+                System.Diagnostics.Process.Start(@"D:\sampleGUI\sampleGUI\bin\x86\Debug\marker.py");
+
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message.ToString());
             }
-            */
+            
 
             //System.Diagnostics.Process.Start(@"C:\\Users\\Administrator\\source\\repos\\sampleGUI\\sampleGUI\\marker.py");
 
